@@ -1,0 +1,274 @@
+body{
+    margin: 0px;
+    font-family: "Roboto", sans-serif;
+}
+
+header{
+    background-image: url(../image/back.jpg);
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: multiply;
+    /* background-image: linear-gradient(90deg, #000000 0%, #F2295B08 100%);
+    opacity: 0.83;
+    transition: background 0.3s, border-radius 0.3s, opacity 0.3s;  */
+}
+
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 10px;
+    padding-left: 40px;
+}
+
+.container{
+    margin-left: 120px;
+    margin-right: 120px;
+}
+
+.logo{
+    font-family: 'Bebas Neue';
+    font-size: 30px;
+}
+
+a{
+    margin: 10px;
+    text-decoration: none;
+    color: white;
+}
+
+
+.text{
+    margin-top: 30px;
+    font-weight: 900;
+    font-size: 40px;
+    color: white;
+}
+
+.text1{
+    margin-top: 20px;
+    color: white;
+}
+
+.image{
+    display: flex;
+    padding-top: 80px;
+}
+
+.image img{
+    height: 50px;
+    margin-left: 10px;
+    margin-bottom: 120px;
+}
+
+.gridsection{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    column-gap: 20px;
+    justify-content: space-evenly;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.divider{
+    border-left: 1px solid rgb(183, 181, 181);
+}
+
+.one{
+    margin: 35px;
+}
+
+.one img{
+    height: 50px;
+}
+
+
+.gridsection img{
+    height: 40px;
+}
+
+.one .heading{
+    color: #0b0033;
+    font-size: 30px;
+    font-family: 'Bebas Neue';
+}
+
+.gridsection2{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 10px;
+    justify-content: space-evenly;
+    text-align: center;
+    margin: 180px;
+}
+
+.carousel {
+    background: white;
+    padding: 2rem 0;
+    height: 100px;
+}
+
+.carousel-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.carousel-track {
+    display: flex;
+    gap: 1rem;
+    transition: transform 0.5s ease;
+}
+
+.carousel-track img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.nav {
+    position: absolute;
+    top: 50%;
+    font-size: 2rem;
+    color: #333;
+    background: rgba(255, 255, 255, 0.7);
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    transform: translateY(-50%);
+}
+
+.nav.prev {
+    left: 0;
+}
+
+.nav.next {
+    right: 0;
+}
+
+.dots {
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.dot {
+    height: 8px;
+    width: 8px;
+    margin: 0 4px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.dot.active {
+    background-color: #717171;
+}
+
+.commitment {
+    display: flex;
+    justify-content: space-between;
+    background-color: #0b0033;
+    padding: 3rem 1rem;
+    margin-top: 10px;
+    padding-left: 120px;
+    padding-top: 120px;
+}
+
+.commitment h2 {
+    color: white;
+    font-size: 1.8rem;
+    font-weight: 700;
+}
+
+.commitment p {
+    color: #d1d5db;
+    font-size: 1.1rem;
+}
+
+.message img{
+    height: 100px;
+    padding-right: 200px;
+}
+
+.personal{
+    display: flex;
+}
+
+.personalimg{
+    height: 650px;
+    width: 650px;
+}
+
+.education{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.educationimg{
+    height: 650px;
+    width: 650px;
+}
+
+.personaltext{
+    padding: 50px;
+}
+
+.personaltext p{
+    color: #717171;
+}
+
+.personaltext li{
+    padding-top: 20px;
+    font-weight: 600;
+}
+
+.btn1{
+    height: 40px;
+    width: 150px;
+    background-color: #0b0033;
+    color: white;
+    font: bold;
+}
+
+.btn1:hover{
+    cursor: pointer;
+    background-color: rgb(112, 112, 197);
+}
+
+.textedu{
+    margin-left: 150px;
+
+}
+
+.textedu h1{
+    margin-top: 20px;
+    font-size: 40px;
+    font-family: "Bebas Neue";
+}
+
+.textedu h2{
+    color: #0b0033;
+    margin-top: 20px;
+    font-size: 30px;
+    font-weight: 200;
+    font-family: "Bebas Neue";
+    padding-left: 20px;
+}
+
+.paratext{
+    padding-left: 20px;
+}
+
+.alltext{
+    border-left: 2px solid rgb(128, 125, 125);
+    border-left-style: dotted;
+    padding-left: 20px;
+}
